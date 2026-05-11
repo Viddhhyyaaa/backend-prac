@@ -13,4 +13,10 @@ app.use(express.urlencoded({extended: true, limit: "16kb"}))
 //express code for loading the static files from PUBLIC directory which doesn't require routing
 app.use(express.static("public"))
 app.use(cookieParser())
+
+//routes import
+import userRouter from './routes/user.routes.js'
+
+//routes declaration
+app.use("/users", userRouter)
 export {app}
