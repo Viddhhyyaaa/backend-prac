@@ -1,35 +1,66 @@
-# Backend Practice
+#  Videotube
+A YouTube-inspired backend application built for personal understanding related to backend development. This project focuses on building production-style REST APIs using Node.js, Express.js, MongoDB, JWT Authentication, Cloudinary, and Mongoose.
 
-A backend practice project built using Node.js, Express.js, MongoDB, and JWT Authentication.
+##  Features
 
-## Features
-- User Authentication
+- User Registration & Authentication
 - JWT Access & Refresh Tokens
-- Protected Routes
-- Login & Logout
-- Cookie Handling
-- MongoDB Integration
+- Secure Password Hashing with bcrypt
+- User Profile Management
+- Video Upload & Management
+- Cloudinary File Storage Integration
+- Channel Subscription System
+- Watch History Tracking
+- MongoDB Aggregation Pipelines
+- Protected Routes & Middleware
 
-## Tech Stack
+##  Tech Stack
+
+### Backend
 - Node.js
 - Express.js
+
+### Database
 - MongoDB
 - Mongoose
-- JWT
 
-## Run Locally
+### Authentication
+- JWT (JSON Web Tokens)
+- bcrypt
 
-```bash
-npm install
-npm run dev
+### File Uploads
+- Multer
+- Cloudinary
 
-Environment Variables
-Create a .env file:
+### Development Tools
+- Postman
+- Git
+- GitHub
 
-PORT=8000
-MONGODB_URI=your_mongodb_uri
-ACCESS_TOKEN_SECRET=your_secret
-REFRESH_TOKEN_SECRET=your_secret
-Author
+##  Key Concepts Learned
 
-Vidhya Rai
+- REST API Development
+- Authentication & Authorization
+- Access & Refresh Token Flow
+- Middleware Architecture
+- File Upload Handling
+- MongoDB Aggregation Pipelines
+- Data Modeling with Mongoose
+- Error Handling
+- Backend Project Structure
+- Secure API Design
+
+##  Learning Objectives
+
+This project was built to understand:
+
+- Industry-standard backend architecture
+- Authentication and authorization
+- MongoDB relationships and aggregations
+- Scalable API design
+- Production-ready backend development practices
+
+##  Author
+
+**Vidhya Rai**
+
